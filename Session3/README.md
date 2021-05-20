@@ -10,6 +10,7 @@
 - 2 Convolution layers
 - 4 Linear layers
 - Model to have 2 inputs and 2 Outputs
+- The 2 inputs are concatenated at the latter layers. Once we get the image into an 1D tensor, the number tensor is concatenated
 
 ```Python
 class Network(nn.Module):
